@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.FilterBar {
+  align-items: center;
+  background-color:#209cee;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+}
+
+.buttonBar {
+  background:#f60055;
+  border-radius: var(--main-border-radius);
+  color: #FFF;
+  height: 35px;
+  width: 10%;
+}
+.HotelMaster {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+  text-align: center;
+  
+  &__container {
+    margin: 2%;
+    width: 20%;
+  }
+}
